@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: linear-gradient(#b3d9ff,   #ccebff) ;
+    height: 100vh;
+
+
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    width: 130px;
+
+}
+
+nav h2
+{
+    
+    text-align: center;
+    color:  #8600b3;
+}
+
+
+.container {
+    border: 2px solid black;
+    width: 50%;
+    margin: auto;
+    height: 67vh;
+    margin-bottom: 15px;
+    overflow-y: scroll;
+    padding: 0px 20px;
+    border-radius: 13px;
+}
+
+.message {
+    
+    width: 24%;
+    padding: 10px 5px;
+    margin: 11px 8px;
+    border: 3px solid black;
+    border-radius: 13px;
+    font-size: 17px;
+}
+
+
+ .right {
+    float: right;
+    clear: both;
+    background:  #99ff99;
+}
+
+.left {
+    float: left;
+    clear: both;
+    background: #d9b3ff;
+}  
+
+#send-container {
+    text-align: center;
+}
+
+#messageInp {
+    width: 46%;
+    font-size: 13px;
+    padding: 8px 2px;
+    border-radius: 6px;
+}
+
+.btn {
+    padding: 6px 7px;
+    background: #ffcc66;
+}
+.btn:hover
+{
+    background: #66ff33;
+    cursor: pointer;
+}
